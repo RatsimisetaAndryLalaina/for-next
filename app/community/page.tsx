@@ -1,7 +1,5 @@
 'use client';
 
-import Link from "next/link";
-
 export default function CommunityPage() {
     console.log('CommunityPage rendered');
   return (
@@ -10,8 +8,6 @@ export default function CommunityPage() {
             <h1>Community Page</h1>
             <p>This is the community page.</p>
         </main>
-
-        <Link href="/">Back to Home</Link>
     </div>
   );
 }
