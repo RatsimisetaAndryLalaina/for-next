@@ -1,6 +1,12 @@
  .menu {
+	color:aqua;
+	text-decoration: underline;
+}
+
+.active {
+	color: red
 }
 
  .menu:hover {
-	text-decoration: underline;
+	color: yellow;
 }
